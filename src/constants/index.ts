@@ -65,19 +65,19 @@ export const NAV_LINKS = [
 // Services
 export const SERVICES = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Web Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "UI/UX Designer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "WordPress Specialist",
     icon: creator,
   },
 ] as const;
@@ -141,55 +141,55 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Web & E-commerce Applications",
+    company_name: "Dalvkot Utility Enterprises",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained responsive front-end applications using React.js, JavaScript, HTML5, and CSS3.",
+      "Built key e-commerce features including product listing pages, cart management, and checkout workflows for the Dcode platform.",
+      "Integrated RESTful APIs for dynamic data rendering, user authentication, and order processing.",
+      "Collaborated with designers and backend developers to translate business requirements into user-friendly interfaces.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "WordPress Websites",
+    company_name: "Dalvkot Utility Enterprises",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "August 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained multiple WordPress-based websites across education, healthcare, and corporate domains.",
+      "Customized WordPress themes and configured plugins based on business and client requirements.",
+      "Implemented backend functionality using PHP for form handling, validations, and authentication.",
+      "Ensured responsive design and consistent user experience across multiple devices and browsers.",
+    ],
+  },
+  {
+    title: "Application Support",
+    company_name: "Collabera Technologies",
+    icon: tesla,
+    iconBg: "#383E56",
+    date: "2021 - 2022",
+    points: [
+      "Provided application support and resolved production issues to ensure high availability.",
+      "Performed bug analysis, troubleshooting, and root cause analysis for application and system-level issues.",
+      "Worked in Linux-based environments, managing logs and services for issue resolution.",
+      "Followed SLA-driven processes to prioritize, track, and resolve incidents within defined timelines.",
+    ],
+  },
+  {
+    title: "UI Developer",
+    company_name: "RC Techbox IT Services",
+    icon: starbucks,
+    iconBg: "#E6DEDD",
+    date: "2020 - 2021",
+    points: [
+      "Developed UI screens using React.js for web applications, including a School Management System.",
+      "Built reusable React components and responsive layouts to enhance performance and maintainability.",
+      "Delivered mobile-first, user-friendly interfaces ensuring a seamless user experience.",
+      "Supported website maintenance and ensured consistent design and functionality.",
     ],
   },
 ] as const;
@@ -198,185 +198,117 @@ export const EXPERIENCES = [
 export const TESTIMONIALS = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Sirisha is a dedicated developer who consistently delivers high-quality work with a focus on performance and user experience.",
+    name: "Anoop Kumar",
+    designation: "Team Lead",
+    company: "Dalvkot",
     image: user1,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Working with Sirisha on the Dcode platform was a great experience. She has a deep understanding of React and seamless API integration.",
+    name: "Suresh Babu",
+    designation: "Senior Backend Developer",
+    company: "Dalvkot",
     image: user2,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Sirisha helped us migrate our healthcare portal to WordPress seamlessly. Her attention to detail and responsiveness were exceptional.",
+    name: "Dr. Megha",
+    designation: "Client",
+    company: "HealthCare Plus",
     image: user3,
+  },
+  {
+    testimonial:
+      "Her ability to translate complex Figma designs into pixel-perfect, responsive components is truly outstanding.",
+    name: "Priyanka S",
+    designation: "UI/UX Lead",
+    company: "RC Techbox",
+    image: user2,
   },
 ] as const;
 
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "Dcode Platform",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "An end-to-end e-commerce platform with product listings, cart management, and checkout workflows, ensuring high performance and scalability.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "restapi",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "css3",
         color: "pink-text-gradient",
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app",
+    source_code_link: "https://github.com/sirishavenu9724",
+    live_site_link: "https://github.com/sirishavenu9724",
   },
   {
-    name: "Golds Gym",
+    name: "School Management",
     description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
+      "A comprehensive web application for schools, featuring UI screens for student data management, attendance tracking, and administrative tasks.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "html5",
         color: "pink-text-gradient",
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app",
+    source_code_link: "https://github.com/sirishavenu9724",
+    live_site_link: "https://github.com/sirishavenu9724",
   },
   {
-    name: "Shoppy",
+    name: "WordPress Solutions",
     description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
+      "Customized WordPress themes and plugins for various domains including education and healthcare, focusing on responsive design and performance.",
     tags: [
       {
-        name: "react",
+        name: "wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "syncfusion",
+        name: "php",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mysql",
         color: "pink-text-gradient",
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app",
-  },
-  {
-    name: "TikTok Clone",
-    description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app",
-  },
-  {
-    name: "Cryptoverse",
-    description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app",
-  },
-  {
-    name: "Travel Advisor",
-    description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app",
+    source_code_link: "https://github.com/sirishavenu9724",
+    live_site_link: "https://github.com/sirishavenu9724",
   },
 ] as const;
 
 export const SOCIALS = [
   {
-    name: "YouTube",
-    icon: youtube,
-    link: "https://www.youtube.com",
+    name: "GitHub",
+    icon: github,
+    link: "https://github.com/sirishavenu9724",
   },
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
-  },
-  {
-    name: "Twitter",
-    icon: twitter,
-    link: "https://x.com/_sanidhyy",
-  },
-  {
-    name: "GitHub",
-    icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://www.linkedin.com",
   },
 ] as const;
