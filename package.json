@@ -3,11 +3,11 @@
   "version": "1.2.0",
   "private": true,
   "author": {
-    "name": "Sirisha V",
-    "email": "[EMAIL_ADDRESS]",
-    "url": "https://github.com/sirishavenu9724"
+    "name": "Sanidhya Kumar Verma",
+    "email": "sanidhya.verma12345@gmail.com",
+    "url": "https://github.com/sanidhyy"
   },
-  "description": "Portfolio using React, Three.js and Typescript",
+  "description": "Modern 3D Portfolio using React, Three.js and Typescript",
   "keywords": [
     "reactjs",
     "react",
