@@ -11,10 +11,9 @@
   "keywords": [
     "reactjs",
     "react",
-    "porfolio-app",
+    "portfolio-app",
     "three-js",
     "modern-ui/ux",
-    "js",
     "javascript",
     "html",
     "css",
@@ -23,23 +22,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/3d-portfolio.git"
+    "url": "https://github.com/sirishavenu9724/Portfolio.git"
   },
-  "homepage": "https://github.com/sanidhyy/3d-portfolio#readme",
+  "homepage": "https://github.com/sirishavenu9724/Portfolio#readme",
   "bugs": {
-    "url": "https://github.com/sanidhyy/3d-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "url": "https://github.com/sirishavenu9724/Portfolio/issues"
   },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
-    },
-    {
-      "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
-    }
-  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -57,7 +45,7 @@
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "react-router-dom": "^7.14.0",
-    "react-tilt": "^1.0.2",
+    "react-parallax-tilt": "^1.7.164",
     "react-vertical-timeline-component": "^4.0.0",
     "sonner": "^2.0.7",
     "tailwind-merge": "^3.5.0",
